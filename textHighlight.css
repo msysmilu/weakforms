@@ -1,0 +1,29 @@
+.original {
+  position: absolute;
+  width: 50%;
+  margin: 0 auto;
+  padding: 1em;
+  background: #fff;
+  color: #000;
+  height: 100px;
+  margin: 2px;
+  border: 1px solid black;
+  color: #fff;
+  overflow: auto;
+}
+
+#divDummy {
+  color: black;
+}
+
+#divBboard {
+  z-index: 11;
+  background: transparent;
+  color: transparent;
+  caret-color: black;
+}
+
+span.weakFormWordStyle {
+  color: lightgrey !important; 
+  font-style: italic;
+}
